@@ -1,0 +1,215 @@
+body{
+    background: #ffe0fa;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.rounded{
+    border-radius:50%;
+}
+
+.header{
+    position: sticky;
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #ffe0fa;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.title{
+    font-size: 50px;
+    font-family: "Tiro Devanagari Sanskrit", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.subtitle{
+    font-size: 30px;
+    font-family: "Tiro Devanagari Sanskrit", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.slogan{
+    font-size: 20px;
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.m-options{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.features{
+    background-color: #ffd0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+
+.ofertas{
+    display: grid;
+}
+
+.oferta{
+    position: static;
+    background-color: #ff90d0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: min-content;
+    height:300px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.oferta:hover{
+    height: 100%;
+}
+
+.o-img{
+    border: 2px solid #ff90d0;
+    border-radius: 20px;
+}
+
+#o-title{
+    font-size: 30px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#o-spec{
+    font-family: "Corben", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.FAQ{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px;
+    gap: 50px;
+}
+
+.faq-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.q{
+    font-size: 30px;
+    font-family: "Lateef", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.a{
+    font-size: 30px;
+    font-family: "Lateef", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: underline;
+}  
+
+.popup .popuptext {
+    visibility: hidden;
+    width: min-content;
+    background-color: #ff90d0;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff90d0 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.footer{
+    background-color: #ffd0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
